@@ -1,0 +1,51 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.42.34435.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/school/workshop1/bus ticket booking system/bus ticket booking system/menu.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "0d1408d228b62ab15db1836ed3330d01defff91575d00015dec98a0d734176bb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/school/workshop1/bus ticket booking system/bus ticket booking system/menu.h"
+          },
+          "hashes": {
+            "sha-256": "223b588c980c08812d63fa69564b2f2e1127ce608acbf23f33d632da099236f7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/school/workshop1/bus ticket booking system/bus ticket booking system/login.h"
+          },
+          "hashes": {
+            "sha-256": "73c5067f897577887a53a86be92114bd082144ac44bbb9688fd18c5226ee1b60"
+          }
+        }
+      ]
+    }
+  ]
+}
